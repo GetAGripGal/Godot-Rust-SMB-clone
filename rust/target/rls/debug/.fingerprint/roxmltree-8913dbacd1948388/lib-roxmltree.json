@@ -1,0 +1,1 @@
+{"rustc":6339714466149818003,"features":"[\"default\", \"std\"]","target":7154886327623945045,"profile":6299028598154287785,"path":4596813852266473678,"deps":[[9095894171183218,"xmlparser",false,17804271868805878896]],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/roxmltree-8913dbacd1948388/dep-lib-roxmltree"}}],"rustflags":[],"metadata":2708997222659951101,"config":0}

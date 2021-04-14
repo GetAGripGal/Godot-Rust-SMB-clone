@@ -1,0 +1,17 @@
+[package]
+name = "smb_rust"
+version = "0.1.0"
+authors = ["ComLarsic <larsjanjensen@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gdnative = "0.9.3"
+
+[lib]
+crate-type = ["cdylib"]
+
+[target.x86_64-apple-darwin]
+linker = "x86_64-apple-darwin15-gcc"
+ar = "x86_64-apple-darwin15-ar"
